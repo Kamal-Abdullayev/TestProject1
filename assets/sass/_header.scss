@@ -1,0 +1,21 @@
+header{
+    background-color: rgb(255,193,7);
+    .container{
+        display: flex;
+        justify-content: space-between;
+        
+            .left-header{
+                margin-top: 1%;
+                color: white;
+            }
+            .right-header{
+                margin-top: 0.7%;
+                display: flex;
+                .dropdown{
+                    button{
+                        color: white;
+                    }
+                }
+            }
+    }
+}
